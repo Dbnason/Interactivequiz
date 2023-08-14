@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: slategray;
+    color: white;
+}
+.nav-bar {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-items:left;
+    align-items: left;
+    gap: 30px;
+    padding:50px 200px 100px 200px;
+}
+
+.nav-button {
+    display:flex;
+    width: 25%;
+    padding: 20px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav-button:hover {
+    background-color: lightsteelblue;
+}
+
+.attention {
+padding:40px;
+font-size: x-large;
+}

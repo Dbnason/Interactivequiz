@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Category-Home</title>
+</head>
+<h5 class="attention"> Choose the Category you would like to review! </h5>
+<body>
+    <nav class="nav-bar">
+        <button class="nav-button" onclick="redirectToPage('/pages/clinicalPractice.html')">Clinical Practice</button>
+        <button class="nav-button" onclick="redirectToPage('/pages/communication.html')">Communication</button>
+        <button class="nav-button" onclick="redirectToPage('/pages/proffesionalRole.html')">Proffesional Role</button>
+        <button class="nav-button" onclick="redirectToPage('/pages/systems.html')">Systems/Legal and Regulatory</button>
+        <button class="nav-button" onclick="redirectToPage('/pages/education.html')">Education</button>
+    </nav>
+    <script>
+        function redirectToPage(url) {
+          window.location.href = url;
+        }
+        </script>
+        
+</body>
+</html>
